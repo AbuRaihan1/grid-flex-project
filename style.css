@@ -1,0 +1,53 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Poppins:ital,wght@0,500;1,300;1,400&family=Roboto:wght@500&display=swap');
+
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 15px;
+}
+
+body {
+    background-color: #F3F1FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.top_players {
+    width: 870px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.top_players>h3 {
+    color: #562EFF;
+    margin: 3px;
+    padding-bottom: 15px;
+
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px 0px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+
+}
+
+.player h3 {
+    margin-left: 10px;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
